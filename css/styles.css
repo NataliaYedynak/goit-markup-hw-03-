@@ -22,6 +22,9 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
+li {
+  list-style-type: none;
+}
 button {
   cursor: pointer;
 }
@@ -53,16 +56,16 @@ img {
 .header-list {
   display: flex;
   gap: 40px;
+  margin-right: 332px;
 }
 .header-container {
   display: flex;
+  align-items: center;
 }
 .header-nav {
   display: flex;
   gap: 40px;
-}
-.list {
-  list-style: none;
+  margin-right: auto;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -72,6 +75,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .link {
   text-decoration: none;
@@ -98,6 +102,8 @@ img {
 }
 .address-list {
   display: flex;
+  gap: 40px;
+  align-items: center;
 }
 .address-item {
   font-style: normal;
@@ -128,10 +134,11 @@ img {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
   margin-left: auto;
   margin-right: auto;
+  color: #ffffff;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -144,6 +151,9 @@ img {
   color: #ffffff;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -186,6 +196,10 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: #f4f4fd;
+}
+.team-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-list {
   display: flex;
