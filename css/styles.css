@@ -300,6 +300,9 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brand-color);
+  padding-top: 32px;
+  padding-bottom: 8px;
+  margin-left: 16px;
 }
 
 .row-text {
@@ -307,6 +310,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-color);
+  padding-bottom: 32px;
+  margin-left: 16px;
 }
 /*Footer section*/
 .footer {
@@ -322,6 +327,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-bottom: 16px;
+  margin-left: 156px;
 }
 .footer-text {
   width: 264px;
@@ -329,6 +336,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-left: 156px;
 }
 .footer-accent {
   color: #f4f4fd;
