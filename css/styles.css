@@ -6,14 +6,31 @@ body {
 a {
   text-decoration: none;
 }
-p, h1, h2, h3, h4, h5, h6{
- margin-top: 0; 
- margin-bottom: 0;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
-ul, ol {
+ul,
+ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+}
+button {
+  cursor: pointer;
+}
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
 }
 :root {
   --primary-white-color: #ffffff;
@@ -23,8 +40,11 @@ ul, ol {
   --primary-color: #434455;
   --active-link-color: #404bbf;
 }
+
 /*Header section*/
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
   background: #ffffff;
 }
 .list {
@@ -108,8 +128,8 @@ ul, ol {
   background-color: #404bbf;
 }
 /*Benefits section*/
-.benefits-item{
-  background-color: #FFFFFF;
+.benefits-item {
+  background-color: #ffffff;
 }
 .benefits-titles {
   font-style: normal;
@@ -139,8 +159,8 @@ ul, ol {
   text-transform: capitalize;
   color: var(--brand-color);
 }
-.team-item{
-background-color: #FFFFFF;
+.team-item {
+  background-color: #ffffff;
 }
 .team-titles {
   font-style: normal;
@@ -157,6 +177,42 @@ background-color: #FFFFFF;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+/*Portfolio section*/
+.main-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--primary-accent-color);
+  background-color: var(--secondary-accent-color);
+}
+
+.main-button:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.main-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.row-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+
+.row-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
 }
 /*Footer section*/
 .footer {
@@ -179,36 +235,4 @@ background-color: #FFFFFF;
 }
 .footer-accent {
   color: #f4f4fd;
-}
-/*Portfolio*/
-.main-button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  color: var(--primary-accent-color);
-  background-color: var(--secondary-accent-color);
-}
-.main-button:hover {
-  color: #ffffff;
-  background-color: #404bbf;
-}
-.main-button:focus {
-  color: #ffffff;
-  background-color: #404bbf;
-}
-.row-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--brand-color);
-}
-.row-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--primary-color);
 }
