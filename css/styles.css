@@ -50,6 +50,17 @@ img {
   padding-bottom: 24px;
   background: #ffffff;
 }
+.header-list {
+  display: flex;
+  gap: 40px;
+}
+.header-container {
+  display: flex;
+}
+.header-nav {
+  display: flex;
+  gap: 40px;
+}
 .list {
   list-style: none;
 }
@@ -84,6 +95,9 @@ img {
 .address {
   font-style: normal;
   color: #434455;
+}
+.address-list {
+  display: flex;
 }
 .address-item {
   font-style: normal;
@@ -145,7 +159,9 @@ img {
 }
 .benefits-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 24px;
 }
 .benefits-item {
   width: calc((100% - 72px) / 4);
@@ -173,7 +189,9 @@ img {
 }
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 24px;
 }
 .team-title {
   font-style: normal;
