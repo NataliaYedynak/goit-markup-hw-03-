@@ -154,6 +154,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
+  width: 169px;
+  height: 56px;
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -184,6 +187,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brand-color);
+  padding-bottom: 8px;
 }
 .benefits-text {
   font-size: 16px;
@@ -200,6 +204,7 @@ img {
 .team-container {
   padding-top: 32px;
   padding-bottom: 32px;
+  text-align: center;
 }
 .team-list {
   display: flex;
@@ -242,6 +247,8 @@ img {
   padding-bottom: 120px;
   background-color: #ffffff;
 }
+.portfolio-container {
+}
 .portfolio-list {
   display: flex;
   justify-content: center;
@@ -252,6 +259,8 @@ img {
   box-sizing: border-box;
   padding-bottom: 32px;
   width: calc((100% - 48px) / 3);
+  border: 1px;
+  color: #e7e9fc;
 }
 .portfolio-title {
   font-style: normal;
