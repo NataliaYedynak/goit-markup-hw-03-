@@ -52,6 +52,7 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   background: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-list {
   display: flex;
@@ -61,11 +62,13 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
 .header-nav {
   display: flex;
   gap: 40px;
   margin-right: auto;
+  align-items: center;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -89,6 +92,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--brand-color);
+  padding: 24px 0;
 }
 .header-link:hover {
   color: #404bbf;
@@ -151,12 +155,11 @@ img {
   color: #ffffff;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: none;
-  width: 169px;
   height: 56px;
+  display: block;
+  min-width: 169px;
+  border-radius: 4px;
 }
 .hero-button:hover {
   background-color: #404bbf;
@@ -187,7 +190,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brand-color);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .benefits-text {
   font-size: 16px;
@@ -221,8 +224,11 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--brand-color);
+  margin-bottom: 72px;
 }
 .team-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
 .team-titles {
@@ -232,6 +238,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brand-color);
+  margin-bottom: 8px;
 }
 .team-text {
   font-style: normal;
@@ -248,6 +255,9 @@ img {
   background-color: #ffffff;
 }
 .portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-list {
   display: flex;
@@ -301,8 +311,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--brand-color);
   padding-top: 32px;
-  padding-bottom: 8px;
   margin-left: 16px;
+  margin-bottom: 8px;
 }
 
 .row-text {
@@ -327,8 +337,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
   margin-left: 156px;
+  display: inline-block;
 }
 .footer-text {
   width: 264px;
@@ -340,4 +351,16 @@ img {
 }
 .footer-accent {
   color: #f4f4fd;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
