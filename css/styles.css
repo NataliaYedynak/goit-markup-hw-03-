@@ -101,6 +101,8 @@ button {
 /*Hero section*/
 .hero {
   background: var(--brand-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   font-style: normal;
@@ -110,6 +112,7 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 48px;
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
@@ -128,8 +131,12 @@ button {
   background-color: #404bbf;
 }
 /*Benefits section*/
-.benefits-item {
+.benefits {
   background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.benefits-item {
 }
 .benefits-titles {
   font-style: normal;
@@ -147,6 +154,8 @@ button {
 }
 /*Team section*/
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #f4f4fd;
 }
 .team-title {
@@ -179,6 +188,11 @@ button {
   color: #434455;
 }
 /*Portfolio section*/
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #ffffff;
+}
 .main-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -216,6 +230,8 @@ button {
 }
 /*Footer section*/
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background: var(--brand-color);
 }
 .footer-logo {
